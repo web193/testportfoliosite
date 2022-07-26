@@ -1,0 +1,282 @@
+@media only screen and (min-width: 768px) {
+    .nav.navbar-nav > li:hover > ul.sub-menu {
+        display: block;
+        -webkit-animation: fadeInUp 400ms;
+        animation: fadeInUp 400ms;
+    }
+    ul.sub-menu {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background: #fff;
+        padding: 10px 0;
+        width: 240px;
+        box-shadow: none;
+        display: none;
+        z-index: 999;
+        border: 1px solid #dab074;
+    }
+    #header .navbar-nav li ul.sub-menu li a {
+        padding-left: 20px;
+    }
+}
+
+
+/* sm */
+
+@media only screen and (max-width: 992px) {
+    h1 {
+        font-size: 25px;
+    }
+    #header .navbar-nav.navbar-right li {
+        padding: 0;
+    }
+    #header .navbar-nav.navbar-right >li a {
+        padding: 20px 10px;
+    }
+    #header {
+        padding-bottom: 120px;
+        padding-top: 10px;
+    }
+    #home-slider {
+        margin-top: 30px;
+    }
+    #home-slider .main-slider {
+        height: 250px;
+    }
+    #home-slider .slide-text {
+        top: 0;
+        width: 50%;
+    }
+    #home-slider h1 {
+        margin-top: 0;
+    }
+    #home-slider .slider-house {
+        width: 350px;
+    }
+    #home-slider .slider-circle1 {
+        right: 295px;
+        bottom: 140px;
+        width: 20px;
+    }
+    #home-slider .slider-circle2 {
+        right: 290px;
+        bottom: 160px;
+        width: 11px;
+    }
+    #home-slider .slider-cloud1 {
+        right: 190px;
+        bottom: 160px;
+        width: 60px;
+    }
+    #home-slider .slider-cloud2 {
+        right: 260px;
+        bottom: 190px;
+        width: 70px;
+    }
+    #home-slider .slider-cloud3 {
+        right: 75px;
+        bottom: 180px;
+        width: 70px;
+    }
+    #home-slider .slider-sun {
+        right: 170px;
+        bottom: 210px;
+        width: 60px
+    }
+    #home-slider .slider-cycle {
+        right: 350px;
+        bottom: 0;
+        width: 140px;
+    }
+}
+
+
+/* xs */
+
+@media only screen and (max-width: 768px) {
+    h1 {
+        font-size: 22px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    .padding {
+        padding: 30px 0;
+    }
+    #header {
+        padding-bottom: 40px;
+        padding-top: 10px;
+    }
+    .social-icons.pull-right {
+        float: left !important;
+    }
+    #header .navbar-inverse .navbar-toggle,
+    #header .navbar-inverse .navbar-toggle:focus {
+        border-color: #dbb075;
+        margin-top: 15px;
+        margin-right: 5px;
+        outline: none;
+    }
+    .navbar-header .navbar-toggle .icon-bar {
+        background-color: hotpink;
+    }
+    #header .navbar-inverse .navbar-toggle:hover {
+        background: #dbb075;
+    }
+    #header .navbar-inverse .navbar-toggle:hover .icon-bar {
+        background: #fff;
+    }
+    .navbar-inverse .navbar-collapse,
+    .navbar-inverse .navbar-form {
+        border-top: 0;
+    }
+    .navbar.navbar-inverse {
+        margin-top: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .social-icons ul li:first-child {
+        padding-left: 0;
+    }
+    .search {
+        top: -40px;
+    }
+    #header {
+        margin-bottom: 350px;
+    }
+    #header .navbar {
+        margin-top: 0px;
+    }
+    #header .navbar-nav.navbar-right li > a > i {
+        display: inline-block;
+        float: right;
+        padding: 8px 10px 8px 30px
+    }
+    #header .navbar-nav.navbar-right li > a {
+        padding: 10px 10px;
+    }
+    #header .navbar-nav li ul.sub-menu li a {
+        padding: 5px 10px;
+    }
+    #header .navbar-inverse .navbar-nav li.active > a,
+    #header .navbar-inverse .navbar-nav li.active > a:focus,
+    #header .navbar-nav.navbar-right li > a:hover {
+        border: none;
+    }
+    #header .navbar .in {
+        background-color: rgba(160, 74, 247, 0.35);
+    }
+    #home-slider {
+        margin: 0px 20px;
+    }
+    #home-slider .main-slider {
+        height: 250px;
+    }
+    #home-slider .slide-text {
+        padding-top: 20px;
+        width: 100%;
+        text-align: center;
+        position: static;
+    }
+    #home-slider .btn-common {
+        width: 100%;
+    }
+    #home-slider .slider-house {
+        position: static;
+    }
+    #home-slider .slider-cloud2 {
+        width: 100px;
+    }
+    /*Pricing Table*/
+    .single-price,
+    .single-table {
+        margin-bottom: 45px;
+    }
+    .single-price .plan-price {
+        height: 200px;
+        padding-top: 25px;
+    }
+    .single-price .plan-price:after {
+        border-width: 200px;
+        margin-left: -200px;
+    }
+    .single-table:before {
+        border-width: 0 225px 60px;
+    }
+    .single-table .btn-signup:after {
+        border-width: 78px 225px 0;
+    }
+    .single-table .btn-signup a {
+        padding: 15px;
+    }
+    #action.responsive {
+        height: 100px;
+    }
+    .action.take-tour {
+        margin-top: 0;
+        padding: 10px 0;
+    }
+    .action .btn-common {
+        float: none;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .action.take-tour .col-sm-7 {
+        width: 100%;
+        text-align: center;
+    }
+    .action.take-tour .col-sm-5 {
+        width: 100%;
+    }
+    .single-features {
+        padding-bottom: 0;
+        padding-top: 30px;
+    }
+    .single-features img {
+        margin-bottom: 25px;
+    }
+    .single-features {
+        text-align: center;
+    }
+    .single-features * {
+        display: inline-block;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #home-slider .slider-circle1 {
+        right: 80%;
+        bottom: 100px;
+        width: 15px;
+    }
+    #home-slider .slider-circle2 {
+        right: 78%;
+        bottom: 120px;
+        width: 10px;
+    }
+    #home-slider .slider-cloud1 {
+        right: 140px;
+        bottom: 140px;
+        width: 60px;
+    }
+    #home-slider .slider-cloud2 {
+        right: 210px;
+        bottom: 190px;
+        width: 70px;
+    }
+    #home-slider .slider-cloud3 {
+        right: 35px;
+        bottom: 180px;
+        width: 70px;
+    }
+    #home-slider .slider-sun {
+        right: 120px;
+        bottom: 180px;
+        width: 60px
+    }
+    #home-slider .slider-cycle {
+        display: none;
+    }
+}
